@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css"/>
+</head>
+<body>
+ 
+    <div class="main">
+
+
+        <form action="" method="POST" class="form" id="form-1">
+
+            <h3 class="heading">Thành viên đăng ký</h3>
+
+
+            <div class="spacer"></div>
+
+            <div class="form-group">
+                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                <input id="fullname" name="fullname" type="text" placeholder="VD: trong tri " class="form-control">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" name="email" type="text" placeholder="VD: email@gmail.com" class="form-control">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password" class="form-label">Mật khẩu</label>
+                <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu"
+                    type="password" class="form-control">
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-group">
+                <label for="dienthoai" class="form-label">Điện thoại </label>
+                <input id="dienthoai" name="dienthoai" type="text" placeholder="0123456789" class="form-control">
+                <span class="form-message"></span>
+            </div>
+<!-- 
+            <div class="form-group">
+                <label for="date" class="form-label">Ngày tham gia  </label>
+                <input id="date" name="date" type="text" placeholder="" class="form-control">
+                <span class="form-message"></span>
+            </div> -->
+            
+            <div class="form-group">
+                <label for="date" class="form-label">Ngày tham gia  </label>
+                <!-- <input id="date" name="date" type="text" placeholder="" class="form-control"> -->
+                <input class="ngay" type="datetime-local" name="bdaytime">
+                <!-- <input type="submit" value="" -->
+
+                <span class="form-message"></span>
+            </div>
+           
+           <div class="form-submit">
+            <input type="submit" value="gửi " ></input>
+            
+        </div>
+        </form>
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" ></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.3.min.js"></script>
+    <script src="js/app.js"></script>
+   
+</body>
+</html>
